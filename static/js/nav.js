@@ -37,7 +37,7 @@ var adjustMenu = function() {
 		});
 	} 
 	else if (ww >= 768) {
-		$(".toggleMenu").css("display", "none");
+		// $(".toggleMenu").css("display", "none");
 		$(".nav").show();
 		$(".nav li").removeClass("hover");
 		$(".nav li a").unbind('click');

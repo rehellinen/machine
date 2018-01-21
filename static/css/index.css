@@ -1,0 +1,29 @@
+.headerText
+{
+    float: right;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.top-header
+{
+    background: white;
+    padding:10px 0;
+}
+
+.nav-width
+{
+    width: 14%;
+}
+
+.ul-width
+{
+    width: 100%;
+}
+
+.nav-width > a
+{
+    padding: 0;
+}

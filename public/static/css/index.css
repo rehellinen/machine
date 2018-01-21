@@ -1,3 +1,11 @@
+.no-padding{padding:0;}
+.no-margin{margin:0;}
+
+.logo
+{
+    padding:10px 0 15px 0;
+}
+
 .header-text-container
 {
     text-align: right;
@@ -20,44 +28,6 @@
     width: 100%;
 }
 
-.li-width
-{
-    text-align: center;
-    width: 14%;
-}
-
-.slider-text
-{
-    position: absolute;
-    right: 0;
-    bottom: -5%;
-    z-index: 20;
-    background-color: #57085d;
-    width: 350px;
-    height: 200px;
-    color: white;
-}
-
-.slider-text-title
-{
-    margin-left: 10%;
-    margin-top: 8%;
-}
-
-.slider-text-desc
-{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-}
-
-.slider-dots
-{
-    bottom: 0;
-    left: 95%;
-    z-index: 30
-}
-
 .slider-container
 {
     width: 100%;
@@ -67,3 +37,71 @@
 {
     width: 100%;
 }
+
+/* 以下是不能完美适配响应式时所使用的代码 */
+/* 移动端 */
+.slider-text
+{
+    position: absolute;
+    right: 0;
+    bottom: -50%;
+    z-index: 20;
+    background-color: #57085d;
+    width: 250px;
+    height: 110px;
+    color: white;
+}
+
+.slider-text-title
+{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.slider-text-desc
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.slider-dots
+{
+    bottom: -40%;
+    left: 80%;
+    z-index: 30;
+    width: 100px;
+    margin-left: -10%;
+}
+
+.li-width
+{
+    text-align: center;
+    width: 100%;
+}
+/* 移动端 */
+/* 以上是不能完美适配响应式时所使用的代码 */
+/* 以下是不能完美适配响应式时所使用的代码 */
+/* 电脑端 */
+@media screen and (min-width: 768px) {
+    .slider-text
+    {
+        bottom: -5%;
+        width: 350px;
+        height: 200px;
+    }
+
+    .slider-dots
+    {
+        bottom: -5%;
+        left: 95%;
+        z-index: 30
+    }
+
+    .li-width
+    {
+        text-align: center;
+        width: 14%;
+    }
+}
+/* 电脑端 */
+/* 以上是不能完美适配响应式时所使用的代码 */

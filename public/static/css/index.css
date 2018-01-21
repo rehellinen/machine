@@ -38,6 +38,62 @@
     width: 100%;
 }
 
+.news-container
+{
+    margin-top: 30px;
+}
+
+.news-container-2
+{
+    padding: 0;
+}
+
+.news-title
+{
+    display: flex;
+    box-shadow:0 0 5px #ebebeb;
+    margin-bottom: 20px;
+}
+
+.news-title-text
+{
+    margin-left: 10%;
+}
+
+.single-news
+{
+    box-shadow:0 0 5px #ebebeb;
+    width: 95%;
+    z-index: 50;
+    margin-left: 2.5%;
+}
+
+.news-main-title
+{
+    margin-left: 5%;
+}
+
+.news-main-content
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.line
+{
+    height: 1px;
+    background-color: #ebebeb;
+    width:90%;
+    margin: 10px 5%;
+}
+
+
+
+
+
+
+
+
 /* 以下是不能完美适配响应式时所使用的代码 */
 /* 移动端 */
 .slider-text
@@ -46,20 +102,22 @@
     right: 0;
     bottom: -50%;
     z-index: 20;
-    background-color: #57085d;
+    background-color: black;
     width: 250px;
     height: 110px;
-    color: white;
+    opacity: 0.75;
 }
 
 .slider-text-title
 {
+    color: #FFFFFF;
     margin-left: 10%;
     margin-top: 5%;
 }
 
 .slider-text-desc
 {
+    color: #FFFFFF;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -79,8 +137,7 @@
     width: 100%;
 }
 /* 移动端 */
-/* 以上是不能完美适配响应式时所使用的代码 */
-/* 以下是不能完美适配响应式时所使用的代码 */
+
 /* 电脑端 */
 @media screen and (min-width: 768px) {
     .slider-text
@@ -105,3 +162,36 @@
 }
 /* 电脑端 */
 /* 以上是不能完美适配响应式时所使用的代码 */
+
+/* 背景 */
+/*background-image: url("/machine/public/static/images/repeat.png");*/
+
+.long-background
+{
+    height: 150px;
+    background-image: url("/machine/public/static/images/background.png");
+    position: absolute;
+    top: 134px;
+    left: 0;
+    right: 0;
+    z-index: -10
+}
+
+@media screen and (min-width: 992px)
+{
+    .long-background
+    {
+        height: 210px;
+        top: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .long-background
+    {
+        height: 280px;
+        top: 165px;
+    }
+}
+/* 背景 */

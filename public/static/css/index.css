@@ -169,7 +169,7 @@
 .long-background
 {
     height: 150px;
-    background-image: url("/machine/public/static/images/background.png");
+    background-image: url("/machine/public/static/images/h150.png");
     position: absolute;
     top: 134px;
     left: 0;
@@ -181,6 +181,7 @@
 {
     .long-background
     {
+        background-image: url("/machine/public/static/images/h210.png");
         height: 210px;
         top: 150px;
     }
@@ -190,6 +191,7 @@
 {
     .long-background
     {
+        background-image: url("/machine/public/static/images/h280.png");
         height: 280px;
         top: 165px;
     }

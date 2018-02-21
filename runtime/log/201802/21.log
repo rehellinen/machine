@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-02-21T23:41:19+08:00 ] 0.0.0.0 GET /machine/public/index/beng/index.html
+[ error ] [0]模板文件不存在:C:\wamp64\www\machine\public/../application/index\view\beng\index.html
+---------------------------------------------------------------
+[ 2018-02-21T23:41:22+08:00 ] 0.0.0.0 GET /machine/public/index/beng/index.html
+[ error ] [0]模板文件不存在:C:\wamp64\www\machine\public/../application/index\view\beng\index.html

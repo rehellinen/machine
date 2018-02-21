@@ -14,4 +14,19 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+
+    public function research()
+    {
+        return $this->fetch();
+    }
+
+    public function beng()
+    {
+        return $this->fetch();
+    }
+
+    public function people()
+    {
+        return $this->fetch();
+    }
 }

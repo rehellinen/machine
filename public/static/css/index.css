@@ -95,6 +95,12 @@
     margin-left: 40%;
 }
 
+.title-photo
+{
+    width: 100%;
+    height: 100%;
+}
+
 /* Custom Styles */
 ul.nav-tabs{
     /*width: 90%;*/
@@ -170,11 +176,6 @@ ul.nav-tabs.affix{
     margin-left: -10%;
 }
 
-.li-width
-{
-    text-align: center;
-    width: 100%;
-}
 /* 移动端 */
 
 /* 电脑端 */
@@ -197,6 +198,12 @@ ul.nav-tabs.affix{
     {
         text-align: center;
         width: 12%;
+    }
+
+    .li-about-width
+    {
+        text-align: center;
+        width: 14%;
     }
 
     .a-padding
@@ -225,7 +232,7 @@ ul.nav-tabs.affix{
     height: 100px;
     background-image: url("/machine/public/static/images/h150.png");
     position: absolute;
-    top: 134px;
+    top: 139px;
     left: 0;
     right: 0;
     z-index: -10
@@ -257,7 +264,7 @@ ul.nav-tabs.affix{
 
     .photo-text-container
     {
-        height: 150px;
+        height: 130px;
     }
 }
 
@@ -283,3 +290,31 @@ ul.nav-tabs.affix{
     }
 }
 /* 背景 */
+
+/* 人物介绍 */
+
+.people-introduction
+{
+    flex-direction: column;
+}
+
+.single-people
+{
+    margin-top: 2%;
+}
+
+.colored-text
+{
+    color: #0088cc;
+}
+
+.people-info-margin
+{
+    margin-top: 10%;
+}
+
+.detail-text
+{
+    margin-bottom: 2px;
+}
+/* 人物介绍 */

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\index.html";i:1519223572;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519225899;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\index.html";i:1519223572;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519227160;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -69,7 +69,7 @@
             <div class="collapse navbar-collapse" id="example-navbar-collapse">
                 <ul class="ul-width nav navbar-nav">
                     <li class="active li-width"><a href="<?php echo url('index/index/index'); ?>">Home</a></li>
-                    <li class="li-width" style="width: 13%"><a href="<?php echo url('index/index/index'); ?>">About Us</a></li>
+                    <li class="li-width" style="width: 13%"><a href="<?php echo url('index/index/about'); ?>">About Us</a></li>
                     <li class="li-width"><a href="<?php echo url('index/beng/index'); ?>">BEng</a></li>
                     <li class="li-width"><a href="#">Research</a></li>
                     <li class="li-width"><a href="#">People</a></li>

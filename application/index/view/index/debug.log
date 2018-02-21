@@ -1,6 +1,0 @@
-[0129/205020:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\UCBrowser\Application\6.2.3831.3\Dumps\settings.dat: 拒绝访问。 (0x5)
-[0129/205020:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: 管道已结束。 (0x6D)
-[0129/205020:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\UCBrowser\Application\6.2.3831.3\Dumps\settings.dat: 拒绝访问。 (0x5)
-[0129/205029:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\UCBrowser\Application\6.2.3831.3\Dumps\settings.dat: 拒绝访问。 (0x5)
-[0129/205029:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: 管道已结束。 (0x6D)
-[0129/205029:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\UCBrowser\Application\6.2.3831.3\Dumps\settings.dat: 拒绝访问。 (0x5)

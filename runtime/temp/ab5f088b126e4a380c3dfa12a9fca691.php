@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:70:"C:\wamp64\www\machine\public/../application/index\view\index\beng.html";i:1519227335;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519230346;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:70:"C:\wamp64\www\machine\public/../application/index\view\index\beng.html";i:1519231206;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -83,27 +83,29 @@
 </div>
 <!-- nav -->
 
-    <div class="short-background"></div>
+    <div class="short-background hidden-xs"></div>
 
-    <!-- photos -->
-    <div class="photo-text-container">
-        <img src="/machine/public/static/images/subtitle.jpg" />
-        <p class="title-text">BEng</p>
+<!-- photos -->
+<div class="photo-text-container hidden-xs">
+    <div class="col-lg-6">
+        <img class="title-photo" src="/machine/public/static/images/subtitle.jpg" />
     </div>
-    <!-- photos -->
+    <p class="title-text">People</p>
+</div>
+<!-- photos -->
 
     <div class="row">
-        <div class="col-xs-3" id="myScrollspy">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" id="myScrollspy">
             <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="350">
-                <li class="active"><a href="#section-1">Object and Learning Outcomes</a></li>
-                <li><a href="#section-2">Programme Structure and Syllabuses</a></li>
-                <li><a href="#section-3">Professional Recognition</a></li>
-                <li><a href="#section-4">Opportunities on internationalization</a></li>
-                <li><a href="#section-5">Career Prospects</a></li>
-                <li><a href="#section-6">Courses and Timetables</a></li>
+                <li class="active hidden-xs"><a href="#section-1">Object and Learning Outcomes</a></li>
+                <li><a href="#section-2" class="hidden-xs">Programme Structure and Syllabuses</a></li>
+                <li><a href="#section-3" class="hidden-xs">Professional Recognition</a></li>
+                <li><a href="#section-4" class="hidden-xs">Opportunities on internationalization</a></li>
+                <li><a href="#section-5" class="hidden-xs">Career Prospects</a></li>
+                <li><a href="#section-6" class="hidden-xs">Courses and Timetables</a></li>
             </ul>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
             <h2 id="section-1">Object and Learning Outcomes</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.</p>
             <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
@@ -127,8 +129,6 @@
             <p>Nam eget purus nec est consectetur vehicula. Nullam ultrices nisl risus, in viverra libero egestas sit amet. Etiam porttitor dolor non eros pulvinar malesuada. Vestibulum sit amet est mollis nulla tempus aliquet. Praesent luctus hendrerit arcu non laoreet. Morbi consequat placerat magna, ac ornare odio sagittis sed. Donec vitae ullamcorper purus. Vivamus non metus ac justo porta volutpat.</p>
         </div>
     </div>
-
-
     <div style="height: 50px"></div>
 </div>
 <!-- 总div -->

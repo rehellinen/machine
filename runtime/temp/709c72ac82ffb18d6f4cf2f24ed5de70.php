@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\index.html";i:1519223572;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519227675;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\index.html";i:1519231332;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -69,10 +69,10 @@
             <div class="collapse navbar-collapse" id="example-navbar-collapse">
                 <ul class="ul-width nav navbar-nav">
                     <li class="active li-width"><a href="<?php echo url('index/index/index'); ?>">Home</a></li>
-                    <li class="li-width" style="width: 13%"><a href="<?php echo url('index/index/about'); ?>">About Us</a></li>
+                    <li class="li-about-width"><a href="<?php echo url('index/index/about'); ?>">About Us</a></li>
                     <li class="li-width"><a href="<?php echo url('index/index/beng'); ?>">BEng</a></li>
                     <li class="li-width"><a href="<?php echo url('index/index/research'); ?>">Research</a></li>
-                    <li class="li-width"><a href="#">People</a></li>
+                    <li class="li-width"><a href="<?php echo url('index/index/people'); ?>">People</a></li>
                     <li class="li-width"><a href="#">Facilities</a></li>
                     <li class="li-width"><a href="#">Events</a></li>
                     <li class="li-width"><a href="#">Students</a></li>
@@ -83,7 +83,7 @@
 </div>
 <!-- nav -->
 
-    <div class="long-background"></div>
+    <div class="long-background hidden-xs"></div>
     <!-- Carousel -->
     <div class="row">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">

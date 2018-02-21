@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:74:"C:\wamp64\www\machine\public/../application/index\view\index\research.html";i:1519228038;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519230346;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:74:"C:\wamp64\www\machine\public/../application/index\view\index\research.html";i:1519230546;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -83,14 +83,16 @@
 </div>
 <!-- nav -->
 
-    <div class="short-background"></div>
+    <div class="short-background hidden-xs"></div>
 
-    <!-- photos -->
-    <div class="photo-text-container">
-        <img src="/machine/public/static/images/subtitle.jpg" />
-        <p class="title-text">Research</p>
+<!-- photos -->
+<div class="photo-text-container hidden-xs">
+    <div class="col-lg-6">
+        <img class="title-photo" src="/machine/public/static/images/subtitle.jpg" />
     </div>
-    <!-- photos -->
+    <p class="title-text">People</p>
+</div>
+<!-- photos -->
 
     <div class="row">
         <div class="col-xs-3" id="myScrollspy">

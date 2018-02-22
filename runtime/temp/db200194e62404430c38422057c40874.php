@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:72:"C:\wamp64\www\machine\public/../application/index\view\index\people.html";i:1519273400;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:72:"C:\wamp64\www\machine\public/../application/index\view\index\people.html";i:1519273400;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519273814;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -73,9 +73,9 @@
                     <li class="li-width"><a href="<?php echo url('index/index/beng'); ?>">BEng</a></li>
                     <li class="li-width"><a href="<?php echo url('index/index/research'); ?>">Research</a></li>
                     <li class="li-width"><a href="<?php echo url('index/index/people'); ?>">People</a></li>
-                    <li class="li-width"><a href="#">Facilities</a></li>
-                    <li class="li-width"><a href="#">Events</a></li>
-                    <li class="li-width"><a href="#">Students</a></li>
+                    <li class="li-width"><a href="<?php echo url('index/index/facilities'); ?>">Facilities</a></li>
+                    <li class="li-width"><a href="<?php echo url('index/index/event'); ?>">Events</a></li>
+                    <li class="li-width"><a href="<?php echo url('index/index/students'); ?>">Students</a></li>
                 </ul>
             </div>
         </div>

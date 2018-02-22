@@ -29,4 +29,19 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+
+    public function facilities()
+    {
+        return $this->fetch();
+    }
+
+    public function event()
+    {
+        return $this->fetch();
+    }
+
+    public function students()
+    {
+        return $this->fetch();
+    }
 }

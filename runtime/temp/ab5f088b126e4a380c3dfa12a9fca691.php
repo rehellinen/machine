@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:70:"C:\wamp64\www\machine\public/../application/index\view\index\beng.html";i:1519231206;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:70:"C:\wamp64\www\machine\public/../application/index\view\index\beng.html";i:1519272777;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -96,13 +96,13 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" id="myScrollspy">
-            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="350">
+            <ul class="nav nav-tabs nav-stacked hidden-xs" data-spy="affix" data-offset-top="350">
                 <li class="active hidden-xs"><a href="#section-1">Object and Learning Outcomes</a></li>
-                <li><a href="#section-2" class="hidden-xs">Programme Structure and Syllabuses</a></li>
-                <li><a href="#section-3" class="hidden-xs">Professional Recognition</a></li>
-                <li><a href="#section-4" class="hidden-xs">Opportunities on internationalization</a></li>
-                <li><a href="#section-5" class="hidden-xs">Career Prospects</a></li>
-                <li><a href="#section-6" class="hidden-xs">Courses and Timetables</a></li>
+                <li><a href="#section-2">Programme Structure and Syllabuses</a></li>
+                <li><a href="#section-3">Professional Recognition</a></li>
+                <li><a href="#section-4">Opportunities on internationalization</a></li>
+                <li><a href="#section-5">Career Prospects</a></li>
+                <li><a href="#section-6">Courses and Timetables</a></li>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">

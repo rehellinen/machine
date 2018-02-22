@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\index.html";i:1519275630;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1519275324;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519275540;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\index.html";i:1519312095;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1519275324;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519275540;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -85,11 +85,7 @@
     <div class="row carousel-container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
             <!-- 轮播（Carousel）指标 -->
-            <div class="slider-text">
-                <h3 class="slider-text-title">标题</h3>
-                <p class="slider-text-desc"> 文字描述 | 文字描述 | 文字描述 | 文字描述 | 文字描述 |</p>
-            </div>
-            <ol class="slider-dots carousel-indicators">
+            <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -98,12 +94,24 @@
             <div class="carousel-inner">
                 <div class="item active" class="slider-container">
                     <img src="/machine/public/static/images/banner1.jpg" class="img-responsive slider-image">
+                    <div class="carousel-caption slider-text">
+                        <h3>图片标题</h3>
+                        <p>描述内容...</p>
+                    </div>
                 </div>
                 <div class="item">
                     <img src="/machine/public/static/images/banner2.jpg" class="img-responsive slider-image">
+                    <div class="carousel-caption slider-text">
+                        <h3>图片标题</h3>
+                        <p>描述内容...</p>
+                    </div>
                 </div>
                 <div class="item">
                     <img src="/machine/public/static/images/banner3.jpg" class="img-responsive slider-image">
+                    <div class="carousel-caption slider-text">
+                        <h3>图片标题</h3>
+                        <p>描述内容...</p>
+                    </div>
                 </div>
             </div>
         </div>

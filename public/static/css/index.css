@@ -144,19 +144,15 @@ ul.nav-tabs.affix{
 .slider-text
 {
     position: absolute;
-    right: 0;
-    bottom: -50%;
     z-index: 20;
     background-color: black;
-    width: 250px;
-    height: 110px;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 .slider-text-title
 {
     color: #FFFFFF;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 5%;
 }
 
@@ -169,8 +165,8 @@ ul.nav-tabs.affix{
 
 .slider-dots
 {
-    bottom: -40%;
-    left: 80%;
+    bottom: -45%;
+    left: 85%;
     z-index: 30;
     width: 100px;
     margin-left: -10%;
@@ -180,13 +176,6 @@ ul.nav-tabs.affix{
 
 /* 电脑端 */
 @media screen and (min-width: 768px) {
-    .slider-text
-    {
-        bottom: -5%;
-        width: 350px;
-        height: 200px;
-    }
-
     .slider-dots
     {
         bottom: -5%;

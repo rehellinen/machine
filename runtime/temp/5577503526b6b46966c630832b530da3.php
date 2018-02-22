@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:74:"C:\wamp64\www\machine\public/../application/index\view\index\research.html";i:1519230546;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:74:"C:\wamp64\www\machine\public/../application/index\view\index\research.html";i:1519272808;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -96,7 +96,7 @@
 
     <div class="row">
         <div class="col-xs-3" id="myScrollspy">
-            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="350">
+            <ul class="nav nav-tabs nav-stacked hidden-xs" data-spy="affix" data-offset-top="350">
                 <li class="active"><a href="#section-1">Research Overview</a></li>
                 <li><a href="#section-2">Research Achievement</a></li>
                 <li><a href="#section-3">Selected Projects</a></li>
@@ -104,7 +104,7 @@
                 <li><a href="#section-5">Knowledge Exchange</a></li>
             </ul>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
             <h2 id="section-1">Research Overview</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.</p>
             <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>

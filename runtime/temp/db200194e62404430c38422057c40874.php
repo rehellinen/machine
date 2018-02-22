@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:72:"C:\wamp64\www\machine\public/../application/index\view\index\people.html";i:1519230546;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:72:"C:\wamp64\www\machine\public/../application/index\view\index\people.html";i:1519273400;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519231310;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -96,7 +96,7 @@
 
     <div class="row">
         <div class="col-xs-3" id="myScrollspy">
-            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="350">
+            <ul class="nav nav-tabs nav-stacked hidden-xs" data-spy="affix" data-offset-top="350">
                 <li class="active"><a href="#section-1">Academic Staff</a></li>
                 <li><a href="#section-2">Honorary Appointments</a></li>
                 <li><a href="#section-3">Administrative Staff</a></li>
@@ -104,7 +104,7 @@
                 <li><a href="#section-5">Researchers / Research Postgraduates</a></li>
             </ul>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
             <h2 id="section-1">Academic Staff</h2>
             <div class="row single-people">
                 <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
@@ -140,9 +140,7 @@
                         <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
                     </div>
                 </div>
-            </div>
-            <div class="row single-people">
-                <div class="single-people col-lg-4">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="/machine/public/static/images/people.jpg" />
                     <div class="people-introduction">
                         <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
@@ -153,7 +151,7 @@
                         <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
                     </div>
                 </div>
-                <div class="single-people col-lg-4">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="/machine/public/static/images/people.jpg" />
                     <div class="people-introduction">
                         <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
@@ -164,7 +162,7 @@
                         <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
                     </div>
                 </div>
-                <div class="single-people col-lg-4">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="/machine/public/static/images/people.jpg" />
                     <div class="people-introduction">
                         <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
@@ -178,21 +176,260 @@
             </div>
             <hr>
             <h2 id="section-2">Honorary Appointments</h2>
-            <div class="row single-simple-people">
+            <div class="row">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
 
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
             </div>
             <hr>
             <h2 id="section-3">Administrative Staff</h2>
-            <p>Integer pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien vel, porttitor bibendum enim. Donec sed nibh vitae lorem porttitor blandit in nec ante. Pellentesque vitae metus ipsum. Phasellus sed nunc ac sem malesuada condimentum. Etiam in aliquam lectus. Nam vel sapien diam. Donec pharetra id arcu eget blandit. Proin imperdiet mattis augue in porttitor. Quisque tempus enim id lobortis feugiat. Suspendisse tincidunt risus quis dolor fringilla blandit. Ut sed sapien at purus lacinia porttitor. Nullam iaculis, felis a pretium ornare, dolor nisl semper tortor, vel sagittis lacus est consequat eros. Sed id pretium nisl. Curabitur dolor nisl, laoreet vitae aliquam id, tincidunt sit amet mauris.</p>
-            <p>Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget ante rutrum adipiscing. Cras interdum ipsum mattis, tempus mauris vel, semper ipsum. Duis sed dolor ut enim lobortis pellentesque ultricies ac ligula. Pellentesque convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras ac pulvinar purus, ac viverra est. Suspendisse potenti. Integer pellentesque neque et elementum tempus. Curabitur bibendum in ligula ut rhoncus.</p>
+            <div class="row">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+            </div>
             <hr>
             <h2 id="section-4">Demonstrator / Technical Staff</h2>
-            <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
-            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
+            <div class="row">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+            </div>
             <hr>
             <h2 id="section-5">Researchers / Research Postgraduates</h2>
-            <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
-            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
+            <div class="row">
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+                <div class="single-people col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <div class="people-introduction">
+                        <h4 class="colored-text">Mr.Bill K.P.Chan</h4>
+                        <p>Lecturer</p>
+
+                        <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
+                        <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
+                        <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    </div>
+                </div>
+            </div>
             <hr>
         </div>
     </div>

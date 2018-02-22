@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:72:"C:\wamp64\www\machine\public/../application/index\view\index\people.html";i:1519273400;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1517122207;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519273814;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:72:"C:\wamp64\www\machine\public/../application/index\view\index\people.html";i:1519273400;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1519275324;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519275540;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -16,11 +16,6 @@
     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-        /*body*/
-        /*{*/
-            /*background: url('/machine/public/static/images/repeat.png') repeat;*/
-            /*background-position: 50%;*/
-        /*}*/
         .wide-background
         {
             width: 100%;
@@ -35,6 +30,7 @@
 <div class="container">
 
     <!-- header -->
+<div class="big-nav">
 <div class="row">
     <div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <img src="/machine/public/static/images/logo.png" class="img-responsive"/>
@@ -43,7 +39,7 @@
         <p class="header-text">Programme Structure and Syllabuses | HKU Home |</p>
         <p>Contact Us | Sitemap</p>
 
-        <div class="input-group col-md-offset-6 col-lg-offset-6 col-sm-offset-6 col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:0px ;positon:relative">
+        <div class="hidden-xs search-div input-group col-md-offset-6 col-lg-offset-6 col-sm-offset-6 col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:0px ;positon:relative">
             <input style="height: 34px" type="text" class="form-control"placeholder="请输入字段名" / >
             <span class="input-group-btn">
                <button class="btn btn-info btn-search" style="height: 34px">查找</button>
@@ -54,7 +50,7 @@
 <!-- header -->
 
 <!-- nav -->
-<div class="row" id="getWidth">
+<div class="row nav-row" id="getWidth">
     <nav class="no-margin navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -80,6 +76,7 @@
             </div>
         </div>
     </nav>
+</div>
 </div>
 <!-- nav -->
 

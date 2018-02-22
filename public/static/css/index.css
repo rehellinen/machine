@@ -40,7 +40,7 @@
 
 .news-container
 {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .news-container-2
@@ -238,6 +238,22 @@ ul.nav-tabs.affix{
     z-index: -10
 }
 
+.big-nav
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-div
+{
+    padding-top: 5px;
+}
+
+.nav-row
+{
+    padding-top: 5px;
+}
+
 .photo-text-container
 {
     display: flex;
@@ -246,20 +262,52 @@ ul.nav-tabs.affix{
     vertical-align: middle;
 }
 
+.carousel-container
+{
+    margin-top: 7px;
+}
+
+@media screen and (min-width: 768px)
+{
+    .carousel-container
+    {
+        margin-top: 0;
+    }
+
+    .long-background
+    {
+        background-image: url("/machine/public/static/images/h210.png");
+        height: 210px;
+        top: 149px;
+    }
+
+    .short-background
+    {
+        background-image: url("/machine/public/static/images/h210.png");
+        height: 120px;
+        top: 148.5px;
+    }
+
+    .photo-text-container
+    {
+        height: 120px;
+    }
+}
+
 @media screen and (min-width: 992px)
 {
     .long-background
     {
         background-image: url("/machine/public/static/images/h210.png");
         height: 210px;
-        top: 150px;
+        top: 154.5px;
     }
 
     .short-background
     {
         background-image: url("/machine/public/static/images/h210.png");
         height: 130px;
-        top: 150px;
+        top: 153.5px;
     }
 
     .photo-text-container
@@ -274,14 +322,14 @@ ul.nav-tabs.affix{
     {
         background-image: url("/machine/public/static/images/h280.png");
         height: 280px;
-        top: 165px;
+        top: 168px;
     }
 
     .short-background
     {
         background-image: url("/machine/public/static/images/h280.png");
         height: 140px;
-        top: 165px;
+        top: 168px;
     }
 
     .photo-text-container
@@ -297,22 +345,18 @@ ul.nav-tabs.affix{
 {
     flex-direction: column;
 }
-
 .single-people
 {
     margin-top: 4%;
 }
-
 .colored-text
 {
     color: #0088cc;
 }
-
 .people-info-margin
 {
     margin-top: 5%;
 }
-
 .detail-text
 {
     margin-bottom: 2px;
@@ -325,9 +369,19 @@ ul.nav-tabs.affix{
     margin-top: 5%;
     vertical-align: middle;
 }
-
 .facilities-image
 {
 
 }
+
+.date-margin
+{
+    margin-top: 2%;
+}
+
+.event-detail
+{
+    margin-top: 3%;
+}
 /* event */
+

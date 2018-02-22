@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:76:"C:\wamp64\www\machine\public/../application/index\view\index\facilities.html";i:1519274876;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1519275324;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519275540;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:71:"C:\wamp64\www\machine\public/../application/index\view\index\event.html";i:1519277943;s:63:"C:\wamp64\www\machine\application\index\view\public\header.html";i:1519275324;s:60:"C:\wamp64\www\machine\application\index\view\public\nav.html";i:1519275540;s:62:"C:\wamp64\www\machine\application\index\view\public\title.html";i:1519230527;s:63:"C:\wamp64\www\machine\application\index\view\public\footer.html";i:1517122207;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -91,47 +91,76 @@
 </div>
 <!-- photos -->
 
+
     <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" id="myScrollspy">
             <ul class="nav nav-tabs nav-stacked hidden-xs" data-spy="affix" data-offset-top="350">
-                <li class="active hidden-xs"><a href="#section-1">Advanced Logistics Laboratory(ALL)</a></li>
+                <li class="active hidden-xs"><a href="#section-1">Events</a></li>
+                <li class="hidden-xs"><a href="#section-2">Seminar</a></li>
+                <li class="hidden-xs"><a href="#section-3">Contest</a></li>
+                <li class="hidden-xs"><a href="#section-4">Newsletter</a></li>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-            <h2 id="section-1">Object and Learning Outcomes</h2>
+            <h2 id="section-1">Events</h2>
             <div class="row facilities">
                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <img src="/machine/public/static/images/facilities.jpg" class="img-responsive facilities-image">
                 </div>
                 <div class="facilities-info col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                    <h3>Research Laboratory for Service Engineering (SEL)</h3>
-                    <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
-                    <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
-                    <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    <p class="date-margin detail-text"><span class="colored-text">26 NOV 2017</span></p>
+                    <p class="detail-text event-detail"><span class="colored-text">Date:</span> 24 - 26 November 2017</p>
+                    <p class="detail-text"><span class="colored-text">Venue:</span> Cyberport, Hong Kong</p>
+                    <hr>
+                    <p>IMSE Students win the Champion of the “Maritime & Logistics Hackathon 2017” (Date: 24-26 November 2017)</p>
                 </div>
                 <hr>
             </div>
+            <hr>
+
+            <h2 id="section-2">Seminar</h2>
             <div class="row facilities">
                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <img src="/machine/public/static/images/facilities.jpg" class="img-responsive facilities-image">
                 </div>
                 <div class="facilities-info col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                    <h3>Research Laboratory for Service Engineering (SEL)</h3>
-                    <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
-                    <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
-                    <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    <p class="date-margin detail-text"><span class="colored-text">26 NOV 2017</span></p>
+                    <p class="detail-text event-detail"><span class="colored-text">Date:</span> 24 - 26 November 2017</p>
+                    <p class="detail-text"><span class="colored-text">Venue:</span> Cyberport, Hong Kong</p>
+                    <hr>
+                    <p>IMSE Students win the Champion of the “Maritime & Logistics Hackathon 2017” (Date: 24-26 November 2017)</p>
                 </div>
                 <hr>
             </div>
+            <hr>
+
+            <h2 id="section-3">Contest</h2>
             <div class="row facilities">
                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <img src="/machine/public/static/images/facilities.jpg" class="img-responsive facilities-image">
                 </div>
                 <div class="facilities-info col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                    <h3>Research Laboratory for Service Engineering (SEL)</h3>
-                    <p class="people-info-margin detail-text"><span class="colored-text">Email:</span> billchan@hku.hk</p>
-                    <p class="detail-text"><span class="colored-text">Tel</span>: 2859 7059</p>
-                    <p class="detail-text"><span class="colored-text">Office:</span> HW 8-14</p>
+                    <p class="date-margin detail-text"><span class="colored-text">26 NOV 2017</span></p>
+                    <p class="detail-text event-detail"><span class="colored-text">Date:</span> 24 - 26 November 2017</p>
+                    <p class="detail-text"><span class="colored-text">Venue:</span> Cyberport, Hong Kong</p>
+                    <hr>
+                    <p>IMSE Students win the Champion of the “Maritime & Logistics Hackathon 2017” (Date: 24-26 November 2017)</p>
+                </div>
+                <hr>
+            </div>
+            <hr>
+
+            <h2 id="section-4">Newsletter</h2>
+            <div class="row facilities">
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                    <img src="/machine/public/static/images/facilities.jpg" class="img-responsive facilities-image">
+                </div>
+                <div class="facilities-info col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                    <p class="date-margin detail-text"><span class="colored-text">26 NOV 2017</span></p>
+                    <p class="detail-text event-detail"><span class="colored-text">Date:</span> 24 - 26 November 2017</p>
+                    <p class="detail-text"><span class="colored-text">Venue:</span> Cyberport, Hong Kong</p>
+                    <hr>
+                    <p>IMSE Students win the Champion of the “Maritime & Logistics Hackathon 2017” (Date: 24-26 November 2017)</p>
                 </div>
                 <hr>
             </div>

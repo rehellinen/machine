@@ -208,7 +208,7 @@ ul.nav-tabs.affix{
 .long-background
 {
     height: 150px;
-    background-image: url("/machine/public/static/images/h150.png");
+    background-image: url("../../static/images/h150.png");
     position: absolute;
     top: 134px;
     left: 0;
@@ -219,7 +219,7 @@ ul.nav-tabs.affix{
 .short-background
 {
     height: 100px;
-    background-image: url("/machine/public/static/images/h150.png");
+    background-image: url("../../static/images/h150.png");
     position: absolute;
     top: 139px;
     left: 0;
@@ -265,14 +265,14 @@ ul.nav-tabs.affix{
 
     .long-background
     {
-        background-image: url("/machine/public/static/images/h210.png");
+        background-image: url("../../static/images/h210.png");
         height: 210px;
         top: 149px;
     }
 
     .short-background
     {
-        background-image: url("/machine/public/static/images/h210.png");
+        background-image: url("../../static/images/h210.png");
         height: 120px;
         top: 148.5px;
     }
@@ -287,14 +287,14 @@ ul.nav-tabs.affix{
 {
     .long-background
     {
-        background-image: url("/machine/public/static/images/h210.png");
+        background-image: url("../../static/images/h210.png");
         height: 210px;
         top: 154.5px;
     }
 
     .short-background
     {
-        background-image: url("/machine/public/static/images/h210.png");
+        background-image: url("../../static/images/h210.png");
         height: 130px;
         top: 153.5px;
     }
@@ -309,14 +309,14 @@ ul.nav-tabs.affix{
 {
     .long-background
     {
-        background-image: url("/machine/public/static/images/h280.png");
+        background-image: url("../../static/images/h280.png");
         height: 280px;
         top: 168px;
     }
 
     .short-background
     {
-        background-image: url("/machine/public/static/images/h280.png");
+        background-image: url("../../static/images/h280.png");
         height: 140px;
         top: 168px;
     }

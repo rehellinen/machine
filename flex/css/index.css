@@ -1,0 +1,129 @@
+body, html, input{
+	font-family:"Microsoft YaHei UI";
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	width: 1200px;
+}
+
+.logo{
+	display: flex;
+	flex-basis: 50%;
+	height: 120px;
+	margin-right: 20%;
+}
+
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+
+.header-text-container{
+	display: flex;
+	flex-basis: 30%;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.header-text-container p{
+	font-size: 14px;
+}
+
+.long-background
+{
+	height: 150px;
+	background-image: url("../../static/images/h280.png");
+	position: absolute;
+	top: 134px;
+	left: 0;
+	right: 0;
+	z-index: -10
+}
+
+.news{
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.single-news{
+	display: flex;
+	flex-direction: column;
+	box-shadow:0 0 5px #ebebeb;
+	width: 32%;
+	align-items: center;
+}
+
+.news-title{
+	display: flex;
+	height: 55px;
+	align-items: center;
+	box-shadow:0 0 5px #ebebeb;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.news-title img{
+	width: 60px;
+	height: 55px;
+}
+
+.news-title h3{
+	font-size: 23px;
+	margin-left: 20px;
+}
+
+.line{
+	height: 1px;
+	background-color: #ebebeb;
+	width:90%;
+	margin: 10px 5%;
+}
+
+.one-news{
+	width: 90%;
+}
+
+.one-news p{
+	margin-bottom: 10px;
+}
+
+.one-news h4{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.one-photo{
+	flex-basis: 23.75%;
+	margin-left: 1%;
+}
+
+.one-photo img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

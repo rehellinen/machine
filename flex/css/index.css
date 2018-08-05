@@ -38,15 +38,28 @@ body, html, input{
 	font-size: 14px;
 }
 
-.long-background
-{
-	height: 150px;
+.long-background{
+	height: 295px;
 	background-image: url("../../static/images/h280.png");
 	position: absolute;
-	top: 134px;
+	top: 190px;
 	left: 0;
 	right: 0;
 	z-index: -10
+}
+
+.short-background{
+    height: 150px;
+    background-image: url("../../static/images/h150.png");
+    position: absolute;
+    top: 190px;
+    left: 0;
+    right: 0;
+    z-index: -10
+}
+
+.short-background-image{
+
 }
 
 .news{
@@ -111,6 +124,28 @@ body, html, input{
 	width: 100%;
 }
 
+.nav{
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	background-color: whitesmoke;
+	height: 55px;
+	border-radius: 5px;
+	margin-top: 8px;
+	color: #778899;
+	font-size: 15px;
+}
+
+.one-nav{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	padding: 0 13px;
+}
+
+.active{
+	background-color: #DCDCDC   ;
+}
 
 
 

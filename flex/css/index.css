@@ -163,7 +163,52 @@ body, html, input{
 	background-color: #DCDCDC   ;
 }
 
+.detail-main{
+    margin-top: 170px;
+    align-items:flex-start;
+}
 
+.left-nav{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    flex-basis: 25%;
+}
+
+.single-left-nav{
+    padding: 10px 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #c0c0c0;
+    color: #0088cc;
+}
+
+.nav-active{
+    color: white;
+    background-color: #0088cc;
+}
+
+.single-left-nav:last-child{
+    border-bottom: 0;
+}
+
+.right-text-container{
+    margin-left: 5%;
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+}
+
+.hr{
+    width: 98%;
+    margin-left: 1%;
+    height: 1px;
+    background-color: #c0c0c0;
+}
+
+.single-article{
+    margin-bottom: 15px;
+}
 
 
 
